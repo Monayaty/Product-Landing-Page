@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  background-color: #EEE; }
+
+.main {
+  max-width: 960px;
+  margin: 2rem auto;
+  overflow: hidden; }
+  .main #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #333; }
+    .main #header .row .logo #header-img {
+      width: 300px; }
+    .main #header .row nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem 2rem; }
+      .main #header .row nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none; }
+        .main #header .row nav ul li {
+          padding: 1rem; }
+          .main #header .row nav ul li a {
+            color: #333;
+            text-decoration: none; }
+
+.container #hero {
+  margin: 4rem;
+  padding: 0.8rem;
+  text-align: center; }
+  .container #hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+  .container #hero form input {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 30%;
+    display: block;
+    padding: 0.4rem; }
+  .container #hero form .btn {
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    font-weight: bold;
+    background-color: #F1C40F;
+    color: #333;
+    text-transform: uppercase; }
+
+.container #features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem; }
+  .container #features .grid {
+    display: inline-flex;
+    justify-self: center;
+    align-items: center; }
+    .container #features .grid .icon i {
+      color: #FF8C00;
+      margin-right: 5rem; }
+    .container #features .grid .desc {
+      padding: 1rem; }
+      .container #features .grid .desc h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem; }
+.container #how-it-works {
+  padding: 3rem;
+  margin: auto;
+  text-align: center; }
+.container #pricing {
+  padding: 3rem 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .container #pricing .product {
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3); }
+    .container #pricing .product .level {
+      background-color: #ddd;
+      font-size: 1.05rem;
+      text-align: center;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .container #pricing .product h2 {
+      margin-top: 15px;
+      font-weight: bold; }
+    .container #pricing .product ol {
+      margin-top: 15px 0;
+      list-style: none; }
+      .container #pricing .product ol li {
+        padding: 5px 0; }
+    .container #pricing .product button {
+      display: inline-block;
+      text-transform: uppercase;
+      border: 0;
+      margin: 15px 0;
+      background-color: #f1c40f;
+      font-weight: 450; }
+      .container #pricing .product button :hover {
+        background-color: orange;
+        transition: background-color 1s; }
+.container footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px; }
+  .container footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none; }
+    .container footer ul li {
+      padding: 0 10px; }
+      .container footer ul li a {
+        color: black;
+        padding: 0.5rem;
+        text-decoration: none; }
+  .container footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444; }
+
+/*# sourceMappingURL=style.css.map */
