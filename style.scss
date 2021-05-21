@@ -20,18 +20,18 @@ body
 
 	#header
 	{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
 		color: #333;
 		
 		.row
 		{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
 			.logo
 			{
 				#header-img
 				{
-					// justify-content: flex-start;
+					justify-content: flex-start;
 					width: 300px;
 				}
 			}
